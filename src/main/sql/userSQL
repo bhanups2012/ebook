@@ -1,0 +1,4 @@
+create table user_detail (id int8 not null, email_address varchar(255), firstname varchar(255), lastname varchar(255), primary key (id))
+insert into user_detail (email_address, firstname, lastname, id) values (1,"bhanu","kushwah","bhanups2012@gmail.com")
+
+
